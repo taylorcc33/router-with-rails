@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+require "faker"
+
+Thing.create(name: Faker::Hacker.noun)
+Thing.create(name: Faker::Hacker.noun)
+Thing.create(name: Faker::Hacker.noun)
